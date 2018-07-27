@@ -1,0 +1,262 @@
+
+
+body {
+    background-image: url("../images/pow-star.png");
+    margin: 0;
+    text-decoration: none;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+ }
+
+ /* Main container to set the width of the content areas */
+
+.wrapper {
+    margin: auto;
+    width: 960px;
+}
+
+header {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    width: 100%;
+    margin: auto;
+    border-bottom: 2px #dddddd solid;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+#container-nav {
+    height:100px;
+    width: 100%;
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    float: left;
+    width: 150px;
+    background-color: rgb(87, 155, 138);
+    padding: 30px;
+    color: #fff;  
+    margin-left: 16%;
+}
+
+h2 {
+
+    color: #4aaaa5;  
+    font-size: 20px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    border-bottom: 1px #dddddd solid;
+    padding: 10px;
+
+}
+
+#nav-first {
+    float: right;
+    font-size: 25px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    padding: 45px;
+    word-spacing: 10px;
+    text-decoration: none;
+    margin-right: 16%;
+    line-height: 15px;
+    
+}
+
+#nav-first a {
+    font-size: 17px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    word-spacing: 10px;
+    text-decoration: none;
+    
+}
+
+/* setting the actual content area for each page */
+
+/* About page */
+
+.hero {
+    background-color: #fff;
+    padding:35px;
+    margin-top: 25px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 19px;
+    line-height: 32px;
+    color: #777777;
+    border: 1px #dddddd solid;
+}
+
+/* Portfolio page */
+
+.hero-2 {
+    background-color: #fff;
+    padding:35px;
+    margin-top: 25px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    color: #777777;
+    height:860px;
+}
+
+/* Contact page */
+
+.hero-3 {
+    background-color: #fff;
+    padding:35px;
+    margin-top: 25px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    color: #777777;
+    height:525px;
+}
+
+#main-pic {
+    float:left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+/* Used on the Portfolio page */
+
+.picture-row {
+    position: relative;
+    float: left;
+    width: 560px;
+}
+
+.picture {
+    float:left;
+    margin-right: 25px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.picture-label {
+    height: 40px;
+    width: 240px;
+    background-color: #4aaaa5;
+    position: absolute;
+    color: white;
+    top: 175px;
+    text-align: center;
+    padding: 5px;
+    font-size: 19px;
+    line-height: 35px;
+    font-family: eorgia, Times, "Times New Roman", serif;
+}
+
+.footer-text {
+    position: fixed;
+    left: 0;
+    bottom: -15px;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    padding: 10px;   
+    
+ }
+
+/* set span to get the text to align vertically */
+
+ span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+  }
+
+/* formatting the form: */
+
+  .button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #1a720e;
+    float: left;
+}
+
+.form-style {
+    border-radius: 5px;   
+    padding: 20px;
+    height:525px;
+}
+
+.text-input {
+    float: left;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+
+}
+
+a {
+    color: darkgrey;
+}
+
+a:active { 
+    color: rgb(139, 59, 34);
+    font-weight: bolder;
+}
+
+a:visited { 
+    color: rgb(34, 106, 139);
+    font-weight: 400;
+    text-decoration: underline;
+
+}
+
+a:hover { 
+    color: rgb(34, 139, 74);
+    font-weight: bolder;
+}
+
