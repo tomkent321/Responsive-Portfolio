@@ -3,63 +3,73 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Contact</title>
+    <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/styles.css">
+    <!-- <link rel="stylesheet" href="assets/css/styles.css"> -->
+    <script src="main.js"></script>
 </head>
-
 <body>
-            <header>
-            
-                <div id="container-nav">
-                    <h1>Thomas Hurd</h1>
-            
-                    <div id="nav-first">
-                        <a href="index.html">About</a>
-                        <a href="portfolio.html">Portfolio</a>
-                        <a href="contact.html">Contact</a>
-                    </div>
-                </div>
-            </header>
-        
-                
-            <div class="wrapper">
-            
-                <section class="hero-3">
 
-                    <h2>Contact</h2>
-            
-                    <section>
-    
-                        <div class="form-style"> 
+   
+        <div class="topnav" id="myTopnav">
+            <div id="nav-box">
+                <div class="name-box">Thomas Hurd</div>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+   
+              
+              
+              <!-- first page container -->
+              
+        <div class="row">
+              
+              <div class="col-2 col-s-2">
+                <!-- just a place holder for the margins -->
+              </div>
+              
+            <div class="col-8 col-s-8 first-container">
+                <h2>Contact</h2>
+                <div class="form-style"> 
 
-                            <form action="/action_page.php">
-                            
-                                <label for="fname">Name</label>
-                                <input type="text" id="fname" name="firstname" placeholder="John Smith">
-                            
-                                <label for="email">Email</label>
-                                <input type="email" id="email" name="lastname" placeholder="example@gmail.com">
-                            
-                            </form>
+                    <form>
+                        <label for="fullname">Name</label><br>
+                        <input type="text" id="fullname" name="fullname"><br>
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" name="email" placeholder="example@gmail.com">
+                      </form>
+                      
 
-                                <p>Message:</p>
-                                
-                                <textarea class="text-input" rows="10" cols="138"></textarea>  
-                                <input type="button" class="button" value="Submit">
 
+
+                    <br>
+                     <div class="row">
+                        <p>Message:</p>
+                        
+                        <textarea id="txt-area" class="text-input" ></textarea>
+                    </div> 
+                        <div class="row btn">
+                        <input type="button" class="btn" value="Submit">
                         </div>
-    
-                    </section>
+                    
 
-                </section>
-            
+                </div>
+                
             </div>
 
-        <footer class="footer">
-                <p class="footer-text"><span>Copyright &copy;</span></p>
-        </footer>
-            
+              <div class="col-2 col-s-2 menu">
+                    <!-- just a place holder for the margins -->
+                  </div>
+              
+        </div>
+
+            <div class="footer">
+                    <p>Copyright &copy;</p>
+            </div>
+    
 </body>
 </html>
